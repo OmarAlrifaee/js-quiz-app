@@ -1,0 +1,58 @@
+[
+  {
+    "title": "whats the capital of syria",
+    "answer_1": "homs",
+    "answer_2": "damascus",
+    "answer_3": "aleppo",
+    "answer_4": "hamah",
+    "right_answer": "damascus"
+  },
+  {
+    "title": "whats the capital of jordan",
+    "answer_1": "alzrqaa",
+    "answer_2": "albatraa",
+    "answer_3": "amman",
+    "answer_4": "alkrk",
+    "right_answer": "amman"
+  },
+  {
+    "title": "whats the capital of palestine",
+    "answer_1": "haifa",
+    "answer_2": "yafa",
+    "answer_3": "aka",
+    "answer_4": "alqds",
+    "right_answer": "alqds"
+  },
+  {
+    "title": "whats the capital of iraq",
+    "answer_1": "bagdad",
+    "answer_2": "albsraa",
+    "answer_3": "alanbar",
+    "answer_4": "ninowa",
+    "right_answer": "bagdad"
+  },
+  {
+    "title": "whats the capital of egypt",
+    "answer_1": "sinaa",
+    "answer_2": "alescandaria",
+    "answer_3": "alqahra",
+    "answer_4": "almnsora",
+    "right_answer": "alqahra"
+  },
+  {
+    "title": "whats the capital of yemen",
+    "answer_1": "adan",
+    "answer_2": "hadrmot",
+    "answer_3": "sanaa",
+    "answer_4": "not in the list",
+    "right_answer": "sanaa"
+  },
+  {
+    "title": "whats the biggest country in the arabic countries",
+    "answer_1": "palestine",
+    "answer_2": "bahrian",
+    "answer_3": "algiria",
+    "answer_4": "alsodan",
+    "right_answer": "algiria"
+  }
+]

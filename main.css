@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui;
+}
+
+:root {
+  --first-color: #0075ff;
+}
+
+.game {
+  margin: 20px auto;
+  width: 700px;
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-radius: 20px;
+}
+
+.game .game-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.game .game-info div {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.game .game-info div span {
+  font-weight: normal;
+}
+.game .answers-container {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.game .answers-container .title {
+  margin: 10px 0;
+}
+.game .answers-container h1 {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.game .answers-container .answers {
+  background-color: #f8f8f8;
+  padding: 0 10px;
+  border-radius: 10px;
+  margin: 25px 0;
+}
+.game .answers-container .answers .answer {
+  padding: 15px 0;
+  text-transform: capitalize;
+}
+.game .answers-container .answers .answer:not(:last-child) {
+  border-bottom: 1px solid #22222289;
+}
+.game .answers-container .answers input[type="radio"] {
+  cursor: pointer;
+}
+.game .answers-container .answers input[type="radio"] + label {
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.game .answers-container .answers input[type="radio"]:checked + label {
+  color: var(--first-color);
+}
+
+.game .submit {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: var(--first-color);
+  margin: 10px auto;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px 0;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.game .submit:hover,
+.restart:hover {
+  background-color: #042850;
+}
+.game .bullets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.game .bullets .spans span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #dddada;
+  margin-left: 2px;
+}
+
+.game .bullets .spans span.on {
+  background-color: var(--first-color);
+}
+.game .results {
+  padding: 10px;
+  margin-top: 10px;
+}
+.game .results span {
+  font-weight: bold;
+}
+
+.game .results span.bad {
+  color: #dc0a0a;
+  text-transform: uppercase;
+}
+.game .results span.good {
+  color: #009688;
+  text-transform: uppercase;
+}
+.game .results span.hero {
+  color: var(--first-color);
+  text-transform: uppercase;
+}
+
+.restart {
+  display: block;
+  outline: none;
+  border: none;
+  background-color: var(--first-color);
+  margin: 10px auto;
+  color: white;
+  border-radius: 5px;
+  width: 20%;
+  padding: 15px 0;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
