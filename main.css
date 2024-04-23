@@ -10,7 +10,7 @@
 
 .game {
   margin: 20px auto;
-  width: 700px;
+  max-width: 700px;
   padding: 30px;
   background-color: #f8f8f8;
   border-radius: 20px;
